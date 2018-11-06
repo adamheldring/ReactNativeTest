@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     borderColor: '#ccc',
   },
   sensor: {
-    marginTop: 15,
+    marginTop: 100,
     paddingHorizontal: 10,
   },
 });

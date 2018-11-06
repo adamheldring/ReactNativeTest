@@ -1,11 +1,11 @@
 import React from 'react';
-import { createStackNavigator } from 'react-navigation'
+import { createBottomTabNavigator } from 'react-navigation'
 import HomeScreen from './HomeScreen'
 import TalkScreen from './TalkScreen'
 import CameraScreen from './CameraScreen'
 import AccelerometerScreen from './AccelerometerScreen'
 
-const RootStack = createStackNavigator({
+const RootStack = createBottomTabNavigator({
   Home: {
     screen: HomeScreen
   },

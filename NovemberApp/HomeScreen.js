@@ -9,8 +9,8 @@ export default class HomeScreen extends React.Component {
 
   render() {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>ADAM's MULTI TOOL APP</Text>
+      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#a2e8c6' }}>
+        <Text style={{fontSize: 25, padding: 10}}>ADAM's MULTI TOOL APP</Text>
         <Button
           title='Go to Talk'
           onPress={() => this.props.navigation.navigate('Talk')}
@@ -23,8 +23,6 @@ export default class HomeScreen extends React.Component {
           title='Go to Accelerometer'
           onPress={() => this.props.navigation.navigate('Accelerometer')}
           />
-
-
       </View>
     )
   }
