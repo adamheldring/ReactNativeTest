@@ -11,7 +11,6 @@ talkOutLoud = () => {
   Expo.Speech.speak("Hey there, I'm a talking app! Hej där, jag är en pratande app!")
 }
 
-
   render() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
